@@ -1,0 +1,302 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:white; 
+  scroll-behavior: auto;
+  font-family: 'Poppins', sans-serif;
+
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #14000f;
+  color:#fafaf9;
+} 
+.name{
+  color:aqua; 
+  margin-left:20px;
+} 
+nav{
+  padding:6px; 
+  background: fixed;
+   background-color: rgb(3, 32, 36); 
+}
+.logo {
+  margin: 15px;
+  font-size: 15px; 
+  margin-left:20px;
+  /* padding-left:5px; padding-right:8px; */
+  font-weight: bold; color:aqua;}
+.container {
+  display: flex; color:azure;
+  justify-content: space-between; 
+}
+nav ul {
+  display: flex;
+  list-style: none; 
+  color:azure;
+}
+
+nav a {
+  text-decoration: none;
+} 
+nav a:hover{
+  color:aqua;
+  font-size:1.2rem;
+}
+
+.menu li {
+  padding: 11px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-image {
+  width: 28vw;
+  margin-top:20px;
+  margin: 20px 0; 
+  border-radius:100%;
+} 
+
+.left-section {
+  margin: 50px 0; 
+  font-size:2.2rem;
+   margin-top:123px;
+} 
+
+.timeline{ 
+  position:relative; 
+  width:50%;
+
+} 
+.coding{
+  padding-top:0;
+position:relative;
+margin-top:20px;
+background-color:aqua; 
+margin-left:450px;  
+margin-bottom:25px;
+ text-align: center;
+ width:25vw;  height:55vh;
+border-radius:8px;
+
+}  
+.text-box h2 p{
+  color:rgb(20, 26, 26); 
+  
+}
+.left-coding{
+left:0; 
+margin-left:50px; 
+color: #14000f;
+} 
+.right-coding { 
+  left:-10%;
+ }
+
+.timeline::after{
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: rgb(228, 219, 219);
+  top: 0;
+  bottom: 0;
+  left: 67%;
+  margin-left: -30px;
+} 
+.x{
+  margin-top:0px;
+}
+.contact {
+  margin:20px;
+  padding:12px;  position:absolute;
+}
+.contact input{
+  padding:7px;
+margin:17px; 
+width:35vw;
+border-radius:3px; 
+border:none;  
+
+}  
+
+ textarea{
+  padding:4px; 
+  border:none; 
+  margin-top:13px;
+  width:35vw;
+  height:30vh;
+  resize:none;
+  margin:17px;
+}  
+
+.contact button{
+background-color:rgb(17, 63, 63);
+border:none;
+border-radius:4px;
+width:65px; 
+position:relative;
+left:38px;
+height:35px; font-weight:bold;
+color:rgb(227, 240, 240);
+}   
+.contact button:hover{
+  font-size:1.1rem;
+  height:38px;
+  width:80px; 
+  color:black; font-weight:bold;
+  background-color: aqua;
+}
+.cont{
+  width:30%; border-radius:9px;
+  background-color: aliceblue;
+  margin:10px;height:4vh;
+  margin-left:35px;
+}  
+
+.skills{
+  text-align:right; 
+  /* padding-top:10px;  */
+  height:4vh;
+  /* padding-bottom:10px; */
+  color:rgb(24, 24, 23); 
+  border-radius:9px; 
+  font-weight: bold; 
+  position:relative;
+  right:10px;
+} 
+.change{
+  color:black; padding-top:0;
+}
+.text-box{
+  position :relative;
+  top:-9px;
+}
+.texbox h2{
+ padding-top:0px;
+ margin-top:-30px;
+}
+.contact h1{ 
+
+margin-bottom:9px; 
+
+} 
+.html{
+  width:95%;
+  background-color:aqua; } 
+  .css{
+    width:90%; 
+    background-color:aqua; 
+  } 
+  .bootstrap{
+    width:90%; 
+    background-color:aqua; 
+  }
+  .js{
+    width:80%; 
+    background-color:aqua; 
+  }
+  .jquery{
+    width:85%; 
+    background-color:aqua; 
+  }
+  .php{
+    width:50%; 
+    background-color:aqua; 
+  }
+  .sql{
+    width:90%; 
+    background-color:aqua; 
+  } 
+  .mongodb{
+    width:90%; 
+    background-color:aqua; 
+  } 
+  .c{ 
+    width:88%;
+    background-color:aqua; 
+  } 
+  .na{
+    font-size:1.5rem;
+  } 
+  .left-section.wave{
+    width:20px; 
+    height:50%;
+  } 
+  .skils{
+    margin-left:40px;
+    position:relative;
+    left:30%;
+  } 
+  .coding-profiles{
+    margin-left:40px;
+  } 
+  .element{
+    color:white;
+  } 
+  
+  .sk{
+    margin-top:105px;
+    margin-left:80px;
+  } 
+  .contact{
+    position:relative;
+    left:20%;
+  }
+   .bt{
+    color:black;
+  margin:60px; font-size:1.2rem;
+height:8vh; width:10vw;
+border-radius:9px;  
+text-shadow: 2px 1px 1px  rgb(196, 201, 201);
+color:rgb(17, 18, 19); border:none;
+background-color:#fafaf9;
+box-shadow:2px 2px 3px 3px aqua  }
+.bt:hover{
+  color:black;
+  background-color: aqua; 
+  font-size:1.3rem;
+  text-shadow:none;
+} 
+.link{
+  color:aqua; 
+  
+}
+.link:hover{
+  font-size:1.0rem;
+} 
+.skils p{
+position:relative;
+top:27px; left:-90px;
+} 
+.b{
+  color:black;
+margin:60px; font-size:1.2rem;
+height:8vh; width:16vw;
+border-radius:9px;  
+text-shadow: 2px 1px 1px  rgb(196, 201, 201);
+color:rgb(17, 18, 19); border:none;
+background-color:#fafaf9;
+box-shadow:2px 2px 3px 3px aqua  }
+.b:hover{
+color:black;
+background-color: aqua; 
+font-size:1.3rem;
+text-shadow:none;
+} 
+.coding::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -10%;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 0;
+  border-radius: 50%;
+  
+}
